@@ -1,5 +1,6 @@
 const Koa = require('koa')
 const app = new Koa()
+const Router = require('koa-router')
 const views = require('koa-views')
 const json = require('koa-json')
 const onerror = require('koa-onerror')
