@@ -1,13 +1,13 @@
-var router = require('koa-router')();
+// var router = require('koa-router')();
 
-router.prefix('/users');
+// router.prefix('/users');
 
-router.get('/', function *(next) {
-  this.body = 'this is a users response!';
-});
+// router.get('/1111', function *(next) {
+//   this.body = 'this is a users response!';
+// });
 
-router.get('/bar', function *(next) {
-  this.body = 'this is a users/bar response!';
-});
+// router.get('/bar', function *(next) {
+//   this.body = 'this is a users/bar response!';
+// });
 
-module.exports = router;
+// module.exports = router;
