@@ -1,5 +1,8 @@
 var fn_index = async (ctx, next) => {
-  ctx.response.body = '111';
+  ctx.response.body = {
+    a:'a',
+    b:'b'
+  };
 };
 
 var fn_signin = async (ctx, next) => {
@@ -15,6 +18,6 @@ var fn_signin = async (ctx, next) => {
 };
 
 module.exports = {
-  "GET /": fn_index,
+  "GET /shudu": fn_index,
   "POST /signin": fn_signin,
 };
